@@ -8,7 +8,7 @@ body, ul, li, h1, h2, a{
   }
   
   header{
-    background-color: #1b8b93;
+    background-color: #ee8114;
     padding: 20px 0;
     text-align: center;
     position: fixed;
@@ -34,7 +34,7 @@ body, ul, li, h1, h2, a{
     width: 100%;
   }
   nav{
-    background: #F4F4F4;
+    background: #ffffff;
     padding: 20px;
     position: sticky;
     top: 120px;
@@ -53,11 +53,11 @@ body, ul, li, h1, h2, a{
   }
   nav li a{
     text-decoration: none;
-    color: #4B4B4B;
+    color: #ee8114;
   }
-  nav li a:hover{
+  /*nav li a:hover{
     text-decoration: underline;
-  }
+  }*/
   nav li a.join{
     color: #F63232;
   }
@@ -69,12 +69,12 @@ body, ul, li, h1, h2, a{
     box-sizing: border-box;
   }
   article h2{
-    color: #F63232;
+    color: #e6670c;
     font-size: 48px;
   }
   article p{
     line-height: 2em;
-    color: #4B4B4B;
+    color: #c6590a;
   }
   article p::first-line{
     font-weight: bold;
@@ -123,7 +123,7 @@ body, ul, li, h1, h2, a{
     border: 4px solid #71d300;
   }
   footer{
-    background: #F63232;
+    background: #ee8114;
     color: white;
     padding: 10px;
     text-align: center;
@@ -154,7 +154,7 @@ body, ul, li, h1, h2, a{
     .banner .welcome span{
       font-size: 1em;
     }
-    nav li{
+   nav li{
       font-size: 18px;
     }
     .images li{
@@ -179,7 +179,7 @@ body, ul, li, h1, h2, a{
       display: block;
       width: 100%;
       margin: 12px 0;
-    }
+    } 
     article h2{
       font-size: 36px;
     }
@@ -208,7 +208,7 @@ body, ul, li, h1, h2, a{
     display: block;
     padding: 15px;
     text-decoration: none;
-    color: #aaa;
+    color: #ee8114;
     font-weight: 800;
     text-transform: uppercase;
     margin: 0 10px;
@@ -219,10 +219,8 @@ body, ul, li, h1, h2, a{
     transition: all .5s;
   }
   nav ul li a:hover {
-    color: #555;
+    color: rgb(0, 0, 0);
   }
-  
-  
   
   /* stroke */
   nav.stroke ul li a,
@@ -257,7 +255,7 @@ body, ul, li, h1, h2, a{
     opacity: 0;
   }
   nav.fill ul li a:hover {
-    color: #023f1c;
+    color: #1b1c1b;
     z-index: 1;
   }
   nav.fill ul li a:hover:after {
@@ -300,7 +298,7 @@ body, ul, li, h1, h2, a{
     z-index: 1;
   }
   nav.shift ul li a:hover {
-    color: #91640F;
+    color: #873309;
   }
   nav.shift ul li a:after {
     display: block;
